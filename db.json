@@ -1,0 +1,385 @@
+{
+    "tranList": [
+        {
+            "id": "2025016706",
+            "poNumber": "2025016706",
+            "vendor": "(주)보경금속",
+            "dueDate": "2026-09-02",
+            "itemList": [
+                {
+                    "id": "row1",
+                    "date": "2026-09-02",
+                    "qty": 2,
+                    "code": "T22023",
+                    "palettes": [
+                        {
+                            "name": "PLT-1",
+                            "id": "P22026070001",
+                            "spec": "200×200×30 cm",
+                            "totalWeight": "53 kg",
+                            "boxQty": 1,
+                            "items": [
+                                {
+                                    "id": "822026070001",
+                                    "code": "TD0339717P0002",
+                                    "qty": "2 EA",
+                                    "weight": "33 kg",
+                                    "dim": "200×100×10 cm"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PLT-2",
+                            "id": "P22026070002",
+                            "spec": "150×150×20 cm",
+                            "totalWeight": "40 kg",
+                            "boxQty": 1,
+                            "items": [
+                                {
+                                    "id": "822026070002",
+                                    "code": "TD9999999X0001",
+                                    "qty": "1 EA",
+                                    "weight": "20 kg",
+                                    "dim": "100×100×10 cm"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "row2",
+                    "date": "2026-10-02",
+                    "qty": 1,
+                    "code": "T22023",
+                    "palettes": [
+                        {
+                            "name": "PLT-3",
+                            "id": "P22026070003",
+                            "spec": "100×100×20 cm",
+                            "totalWeight": "25 kg",
+                            "boxQty": 1,
+                            "items": [
+                                {
+                                    "id": "822026070003",
+                                    "code": "TD8888888Y0002",
+                                    "qty": "1 EA",
+                                    "weight": "15 kg",
+                                    "dim": "80×80×10 cm"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "issuanceList": [
+        {
+            "id": "1",
+            "itemNo": 111,
+            "requester": "aaa",
+            "date": "2026-09-15"
+        },
+        {
+            "id": "2",
+            "itemNo": 222,
+            "requester": "bbb",
+            "date": "2026-09-16"
+        },
+        {
+            "id": "3",
+            "itemNo": 333,
+            "requester": "ccc",
+            "date": "2026-09-17"
+        }
+    ],
+    "issuanceSubList": [
+        {
+            "id": "1",
+            "pid": 111,
+            "itemNo": "DO9ZGD01031",
+            "requester": "aaa",
+            "qty": 2,
+            "isIssuanceed": false
+        },
+        {
+            "id": "2",
+            "pid": 111,
+            "itemNo": "DO9ZGD01032",
+            "requester": "bbb",
+            "qty": 4,
+            "isIssuanceed": false
+        },
+        {
+            "id": "3",
+            "pid": 111,
+            "itemNo": "DO9ZGD01033",
+            "requester": "ccc",
+            "qty": 1,
+            "isIssuanceed": false
+        },
+        {
+            "id": "4",
+            "pid": 111,
+            "itemNo": "DO9ZGD01034",
+            "requester": "ccc",
+            "qty": 1,
+            "isIssuanceed": false
+        },
+        {
+            "id": "5",
+            "pid": 111,
+            "itemNo": "DO9ZGD01035",
+            "requester": "ccc",
+            "qty": 1,
+            "isIssuanceed": true,
+            "issuancePlace": "",
+            "issuanceSave": "",
+            "choiceList": [],
+            "processedAt": "2026-09-18T07:11:51.368Z"
+        },
+        {
+            "id": "6",
+            "pid": 111,
+            "itemNo": "DO9ZGD01036",
+            "requester": "aaa",
+            "qty": 2,
+            "isIssuanceed": true,
+            "issuancePlace": "",
+            "issuanceSave": "",
+            "choiceList": [],
+            "processedAt": "2026-09-18T07:26:51.243Z"
+        },
+        {
+            "id": "7",
+            "pid": 111,
+            "itemNo": "DO9ZGD01037",
+            "requester": "bbb",
+            "qty": 4,
+            "isIssuanceed": true,
+            "issuancePlace": "",
+            "issuanceSave": "",
+            "choiceList": [],
+            "processedAt": "2026-09-18T07:11:51.371Z"
+        },
+        {
+            "id": "8",
+            "pid": 222,
+            "itemNo": "DO9ZGD01038",
+            "requester": "bbb",
+            "qty": 4,
+            "isIssuanceed": false
+        },
+        {
+            "id": "9",
+            "pid": 222,
+            "itemNo": "DO9ZGD01039",
+            "requester": "bbb",
+            "qty": 4,
+            "isIssuanceed": false
+        },
+        {
+            "id": "10",
+            "pid": 222,
+            "itemNo": "DO9ZGD01040",
+            "requester": "bbb",
+            "qty": 4,
+            "isIssuanceed": false
+        },
+        {
+            "id": "11",
+            "pid": 333,
+            "itemNo": "DO9ZGD01041",
+            "requester": "bbb",
+            "qty": 4,
+            "isIssuanceed": false
+        },
+        {
+            "id": "12",
+            "pid": 333,
+            "itemNo": "DO9ZGD01042",
+            "requester": "bbb",
+            "qty": 4,
+            "isIssuanceed": false
+        }
+    ],
+    "issuScanSch": [
+        {
+            "id": "1",
+            "parentNo": 111,
+            "itemNo": "DO9ZGD01031",
+            "itemName": "aaa",
+            "qty": 2
+        },
+        {
+            "id": "2",
+            "parentNo": 111,
+            "itemNo": "DO9ZGD01032",
+            "itemName": "bbb",
+            "qty": 4
+        }
+    ],
+    "retunList": [
+        {
+            "id": "111",
+            "requester": "aaa",
+            "date": "2026-09-15"
+        },
+        {
+            "id": "222",
+            "requester": "bbb",
+            "date": "2026-09-16"
+        },
+        {
+            "id": "333",
+            "requester": "ccc",
+            "date": "2026-09-17"
+        }
+    ],
+    "retunSubList": [
+        {
+            "id": "1",
+            "isReturned": false,
+            "parentNo": 111,
+            "itemNo": "DO9ZGD01031",
+            "itemName": "aaa",
+            "qty": 2,
+            "returnPlace": "반납1창고",
+            "returnSave": "반납2저장",
+            "choiceList": [
+                {
+                    "grIdx": 1,
+                    "grList": [
+                        {
+                            "isSelected": false,
+                            "listItem": "1_01"
+                        },
+                        {
+                            "isSelected": false,
+                            "listItem": "1_02"
+                        }
+                    ]
+                },
+                {
+                    "grIdx": 2,
+                    "grList": [
+                        {
+                            "isSelected": false,
+                            "listItem": "2_01"
+                        },
+                        {
+                            "isSelected": false,
+                            "listItem": "2_02"
+                        },
+                        {
+                            "isSelected": false,
+                            "listItem": "2_02"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "isReturned": true,
+            "parentNo": 111,
+            "itemNo": "DO9ZGD01032",
+            "itemName": "bbb",
+            "qty": 4,
+            "returnPlace": "반납1창고",
+            "returnSave": "반납2저장",
+            "choiceList": [
+                {
+                    "grIdx": 1,
+                    "grList": [
+                        {
+                            "isSelected": false,
+                            "listItem": "1_01"
+                        },
+                        {
+                            "isSelected": true,
+                            "listItem": "1_02"
+                        }
+                    ]
+                },
+                {
+                    "grIdx": 2,
+                    "grList": [
+                        {
+                            "isSelected": false,
+                            "listItem": "2_01"
+                        },
+                        {
+                            "isSelected": false,
+                            "listItem": "2_02"
+                        },
+                        {
+                            "isSelected": false,
+                            "listItem": "2_02"
+                        }
+                    ]
+                }
+            ],
+            "processedAt": "2026-09-18T06:17:53.210Z"
+        },
+        {
+            "id": "3",
+            "isReturned": false,
+            "parentNo": 222,
+            "itemNo": "DO9ZGD01033",
+            "itemName": "ccc",
+            "qty": 1,
+            "returnPlace": "반납3창고",
+            "returnSave": "반납4저장",
+            "choiceList": [
+                {
+                    "grIdx": 1,
+                    "grList": [
+                        {
+                            "isSelected": false,
+                            "listItem": "1_01"
+                        },
+                        {
+                            "isSelected": false,
+                            "listItem": "1_02"
+                        }
+                    ]
+                },
+                {
+                    "grIdx": 2,
+                    "grList": [
+                        {
+                            "isSelected": false,
+                            "listItem": "2_01"
+                        },
+                        {
+                            "isSelected": false,
+                            "listItem": "2_02"
+                        },
+                        {
+                            "isSelected": false,
+                            "listItem": "2_02"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "retuScanSch": [
+        {
+            "id": "1",
+            "parentNo": 111,
+            "itemNo": "DO9ZGD01031",
+            "itemName": "aaa",
+            "qty": 2
+        },
+        {
+            "id": "2",
+            "parentNo": 111,
+            "itemNo": "DO9ZGD01032",
+            "itemName": "bbb",
+            "qty": 4
+        }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
+}
